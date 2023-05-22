@@ -1,3 +1,25 @@
+// DEMO
+
+const arr = ["Men", 22]
+
+console.log(arr[0])
+console.log(arr[1])
+
+console.log(arr[10])
+
+arr.push("Wed")
+arr.push(2000)
+
+console.log(arr)
+
+const newArr = arr.slice(1, 3)
+
+console.log('newArr', newArr)
+
+console.log(arr.indexOf(22))
+
+
+
 // * Exercise
 // ? Create an array that contain 4 foods that you like. Then complete these following tasks.
 
@@ -16,26 +38,3 @@ myFavFood.push("Ice-cream", "Yogurt", "Orange")
 console.log(myFavFood)
 
 console.log(myFavFood.includes("Salmon"))
-
-
-
-
-
-
-const arr = ["Men", 22]
-
-// console.log(arr[0])
-// console.log(arr[1])
-
-// console.log(arr[10])
-
-// arr.push("Wed")
-// arr.push(2000)
-
-// console.log(arr)
-
-// const newArr = arr.slice(1, 3)
-
-// console.log('newArr', newArr)
-
-// console.log(arr.indexOf(22))
