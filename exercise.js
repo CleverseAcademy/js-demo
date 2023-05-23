@@ -72,5 +72,6 @@ console.log(filterMale(["Mr Prem", "Mr Bobo", "Ms Mimi"]))
 // * 6
 // * 12
 // * 13
+// * 16
 // * 28 (advanced)
 // * 29 (advanced)
