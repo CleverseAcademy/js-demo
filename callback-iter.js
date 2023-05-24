@@ -79,7 +79,6 @@ forEach([1, 2, -3, -4], (x, i) => {
   console.log(`item at index ${i} is ${x}`);
 });
 
-// Map with isPos
 map([1, 2, -3, -4], isPos); // [true, true, false, false]
 // The same as above, but with annonymous function
 map([1, 2, -3, -4], (x) => x >= 0); // [true, true, false, false]
@@ -87,8 +86,8 @@ map([1, 2, -3, -4], (x) => x + 10); // [11, 12, 7, 6]
 map([1, 2, -3, -4], (x) => (x + 10).toString()); // ["11", "12", "6", "7"]
 map([1, 2, -3, -4], (x) => x.toString() + 10); // ["110", "210", "-310", "-410"]
 
-// Filter with isPos
 filter([1, 2, -3, -4], isPos); // [1, 2]
+// The same as above, but with annonymous function
 filter([1, 2, -3, -4], (x) => x >= 0); // [1, 2]
 filter([1, 2, -3, -4], isNeg); // [-3, -4]
 filter([1, 2, -3, -4], (x) => x < 0); // [-3, -4]
